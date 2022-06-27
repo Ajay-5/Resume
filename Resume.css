@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container */
+
+.container{
+    display: flex;
+    /* display: grid; */
+    /* grid-template-areas: ' left-c  left-c  left-c right-c'; */
+    margin: .5rem;
+}
+
+/* #left-c{
+    grid-area: left-c;
+    border: 3px double #000;
+}
+
+#right-c{
+    grid-area: right-c;
+    border: 3px double #fff; 
+} */
+
+.left-content{
+    width: 75%;
+    /* background-color: #0000ff; */
+    background: rgb(2,0,36);
+    background: linear-gradient(128deg, rgba(2,0,36,1) 0%, rgba(2,2,64,1) 50%, rgba(2,0,36,1) 100%);
+    color: #fff;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    margin-right: 2px;
+}
+
+.left-content h1{
+    text-transform: uppercase;
+    text-align: center;
+    margin: 2rem 0;
+    font-size: 2.5rem;
+    /* border-bottom: 5px double #fff; */
+    padding-bottom: 1rem;
+}
+
+/* Profile */
+
+.profile h2{
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin: 0 3rem;
+    padding: .5rem 2rem;
+    background-color: #000;
+}
+
+.profile p{
+    margin: 1rem 2rem 2rem 3rem;
+    font-size: 20px;
+    line-height: 1.8rem;
+}
+
+/* Education */
+
+.education h2{
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin: 0 3rem;
+    padding: .5rem 2rem;
+    background-color: #000;
+}
+
+.cls{
+    margin: 1rem 3rem;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-size: bold;
+}
+
+.uname, .year{
+    margin: 1rem 0 1rem 5rem;
+    font-size: 19px;
+}
+
+.pu{
+    margin: 2rem 0;
+}
+
+/* .portfolio */
+
+.portfolio{
+    margin-top: 3rem;
+}
+
+.portfolio h2{
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin: 0 3rem;
+    padding: .5rem 2rem;
+    background-color: #000;
+}
+
+.list{
+    margin: 1rem 0 1rem 4.5rem;
+}
+
+.list ul li{
+    padding: .5rem 0;
+    font-size: 2rem;
+}
+
+.list ul li a{
+    text-decoration: none;
+    font-size: 22px;
+    color: #fff;
+}
+
+/* Experience */
+
+.experience h2{
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin: 0 3rem;
+    padding: .5rem 2rem;
+    background-color: #000;
+}
+
+.right-content{
+    background-color: #000;
+    border-radius: 10px;
+    width: 25%;
+}
+
+.right-content img{
+    display: block;
+    width: 150px;
+    height: 170px;
+    /* border-radius: 50%; */
+    border-radius: 5px 30px;
+    margin: 2rem auto 1rem auto;
+    border: 3px solid #fff;
+}
+
+/* Skills */
+
+.skill{
+    color: #fff;
+    margin: 3rem 0 2rem 0;
+    /* border: 2px solid red; */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.skill h2{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.s-line{
+    /* border-bottom: 5px solid #fff; */
+    height: 12px;
+    /* margin: 1rem 0 1rem 3rem; */
+    margin: 1rem 2rem;
+    width: 80%;
+    background-color: #fff;
+}
+
+.hs, .cs, .rs, .js, .gs{
+    height: 12px;
+    background-color: #020260;
+}
+
+.hs{
+    width: 90%;
+}
+
+.cs{
+    width: 75%;
+}
+
+.rs{
+    width: 75%;
+}
+
+.js{
+    width: 25%;
+}
+
+.gs{
+    width: 50%;
+}
+
+.skill p{
+    /* margin: 0 3rem; */
+    margin-left: 2rem;
+    font-size: 18px;
+}
+
+/* Languages */
+
+.lang{
+    color: #fff;
+    margin: 4rem 0 2rem 0;
+    /* border: 2px solid orange; */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.lang h2{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.l-line{
+    /* border-bottom: 5px solid #fff; */
+    height: 12px;
+    /* margin: 1rem 0 1rem 3rem; */
+    margin: 1rem 2rem;
+    width: 80%;
+    background-color: #fff;
+}
+
+.kl, .el, .hl{
+    height: 12px;
+    /* background-color: #0000ff; */
+    background-color: #020260;
+}
+
+.kl{
+    width: 90%;
+}
+
+.el{
+    width: 80%;
+}
+
+.hl{
+    width: 50%;
+}
+
+.lang p{
+    /* margin: 0 3rem; */
+    margin-left: 2rem;
+    font-size: 18px;
+}
+
+.contact{
+    color: #fff;
+    margin: 4rem 1rem 2rem 1rem;
+    /* border: 2px solid red; */
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+
+.contact h2{
+    text-align: center;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
+
+.contact a{
+    display: flex;
+    text-decoration: none;
+    margin-left: 1rem;
+    color: #fff;
+}
+
+.contact p{
+    margin-left: 1rem;
+    line-height: 1.8rem;
+}
+
+.contact i{
+    font-size: 21px;
+    padding-right: 1rem;
+}
+
+
+
+
+
