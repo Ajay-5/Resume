@@ -37,13 +37,18 @@
 .left-content h1{
     text-transform: uppercase;
     text-align: center;
-    margin: 2rem 0;
+    margin: 2.5rem 0 2rem 0;
     font-size: 2.5rem;
     /* border-bottom: 5px double #fff; */
     padding-bottom: 1rem;
 }
 
 /* Profile */
+
+.profile{
+    /* border: 2px solid darkgreen; */
+    margin: 1rem 0;
+}
 
 .profile h2{
     text-transform: uppercase;
@@ -55,12 +60,18 @@
 }
 
 .profile p{
-    margin: 1rem 2rem 2rem 3rem;
+    margin: 1rem 3rem 0 3rem;
     font-size: 20px;
     line-height: 1.8rem;
+    text-align: justify;
 }
 
 /* Education */
+
+.education{
+    margin: 3rem 0;
+    /* border: 2px solid darkgoldenrod; */
+}
 
 .education h2{
     text-transform: uppercase;
@@ -89,9 +100,9 @@
 
 /* .portfolio */
 
-.portfolio{
-    margin-top: 3rem;
-}
+/* .portfolio{
+    border: 2px solid red;
+} */
 
 .portfolio h2{
     text-transform: uppercase;
@@ -119,6 +130,11 @@
 
 /* Experience */
 
+.experience{
+    /* border: 2px solid orangered; */
+    margin-top: 2.5rem;
+}
+
 .experience h2{
     text-transform: uppercase;
     font-size: 1.7rem;
@@ -126,6 +142,13 @@
     margin: 0 3rem;
     padding: .5rem 2rem;
     background-color: #000;
+}
+
+.experience p{
+    margin: 1rem 3rem 2rem 3rem;
+    font-size: 20px;
+    line-height: 1.8rem;
+    text-align: justify;
 }
 
 .right-content{
@@ -277,8 +300,3 @@
     font-size: 21px;
     padding-right: 1rem;
 }
-
-
-
-
-
